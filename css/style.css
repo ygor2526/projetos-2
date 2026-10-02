@@ -1,0 +1,151 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f8fafc;
+    color: #1e293b;
+}
+
+span {
+    color: #64748b;
+    font-weight: bold;
+}
+
+nav {
+    background-color: #0a192f;
+    color: #e2e8f0;
+    padding: 20px;
+    font-weight: bold;
+}
+
+nav section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#logo img {
+    display: flex;
+    max-width: 300px;
+}
+
+#opcao {
+    display: flex;
+    gap: 30px;
+    justify-content: end;
+}
+
+h2 {
+    text-align: center;
+    padding-bottom: 20px;
+    font-size: 80px;
+    color: #0a192f;
+}
+
+#introducao {
+    border-left: 5px solid #c0c0c0;
+    background-color: rgba(30, 58, 138, 0.08);
+    margin: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 50px;
+    padding: 30px;
+}
+
+#introducao article {
+    flex: 1 1 320px;
+}
+
+#introducao img {
+    display: flex;
+    width: 100%;
+    object-fit: cover;
+    justify-content: space-between;
+}
+
+#introducao p {
+    font-size: 20px;
+    color: #475569;
+    padding: 20px;
+}
+
+#titulocards {
+    padding-left: 40px;
+    padding-top: 20px;
+}
+
+h3 {
+    color: #0a192f;
+    font-size: clamp(30px, 4vw, 50px);
+}
+
+#cards {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    align-items: stretch;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+
+#cards p {
+    padding: 10px;
+    font-size: 20px;
+    color: #334155;
+}
+
+h4 {
+    padding: 15px;
+    font-size: 25px;
+    font-weight: bold;
+    color: #0a192f;
+}
+
+.card img {
+    height: 400px;
+    width: 100%;
+    object-fit: cover;
+}
+
+.card {
+    background-color: rgba(30, 58, 138, 0.08);
+    border: 1px solid #e2e8f0;
+    padding: 20px;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+hr {
+    margin: 30px;
+    border: 0;
+    border-top: 1px solid #c0c0c0;
+}
+
+small {
+    margin: 40px;
+    color: #64748b;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 10px;
+}
+
+th, td {
+    border: 1px solid #cbd5e1;
+    padding: 10px;
+    text-align: center;
+}
+
+th {
+    background-color: #0a192f;
+    color: #ffffff;
+}
